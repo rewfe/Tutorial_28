@@ -7,7 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <ParseUI/ParseUI.h>
+#import <Parse/Parse.h>
 
-@interface RecipeBookViewController : UITableViewController
+@interface RecipeBookViewController : PFQueryTableViewController
 
 @end
