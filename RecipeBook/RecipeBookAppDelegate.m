@@ -7,6 +7,7 @@
 //
 
 #import "RecipeBookAppDelegate.h"
+#import <ParseUI/ParseUI.h>
 #import <Parse/Parse.h>
 
 @implementation RecipeBookAppDelegate
@@ -15,9 +16,11 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+   
     // Override point for customization after application launch.
     [Parse setApplicationId:@"PmtKjKotawMdy7UUClpyr2Fa7ORxAimwYS46AWfs"
                   clientKey:@"4xxIgFL8HG3QtSeaiJQdMQzMnVOxH2eSePVi8PYI"];
+     [PFImageView class];
     
     return YES;
 }

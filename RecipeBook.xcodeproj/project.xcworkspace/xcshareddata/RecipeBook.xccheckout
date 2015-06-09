@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>0F6CE0C1-724D-47F7-BA30-BB04198C1B37</string>
 	<key>IDESourceControlProjectName</key>
-	<string>RecipeBook</string>
+	<string>project</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>B85860AF12A1BEEBDA103619DDFF8F8152654A01</key>
 		<string>https://github.com/rewfe/Tutorial_28.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>RecipeBook.xcodeproj</string>
+	<string>RecipeBook.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>B85860AF12A1BEEBDA103619DDFF8F8152654A01</key>

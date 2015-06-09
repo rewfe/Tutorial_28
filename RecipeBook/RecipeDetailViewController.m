@@ -7,6 +7,7 @@
 //
 
 #import "RecipeDetailViewController.h"
+#import <ParseUI/ParseUI.h>
 
 @interface RecipeDetailViewController ()
 
@@ -35,7 +36,7 @@
     
     self.title = recipe.name;
     self.prepTimeLabel.text = recipe.prepTime;
-    self.recipePhoto.image = [UIImage imageNamed:recipe.imageFile];
+    self.recipePhoto.file = recipe.imageFile;
 
     NSMutableString *ingredientText = [NSMutableString string];
     for (NSString* ingredient in recipe.ingredients) {

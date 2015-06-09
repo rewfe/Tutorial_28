@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		843CECB21B225935002D0A4E /* ParseUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 843CECB11B225935002D0A4E /* ParseUI.framework */; };
-		844F2F2D1B212EA500C0640A /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 844F2F2C1B212EA500C0640A /* Parse.framework */; };
+		8444AB381B2671D2007D02FE /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8444AB371B2671D2007D02FE /* Parse.framework */; };
+		8444AB3A1B2671DE007D02FE /* ParseUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8444AB391B2671DE007D02FE /* ParseUI.framework */; };
 		844F2F2F1B212F2000C0640A /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 844F2F2E1B212F2000C0640A /* AudioToolbox.framework */; };
 		844F2F311B212F2D00C0640A /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 844F2F301B212F2D00C0640A /* CFNetwork.framework */; };
 		844F2F321B212F3D00C0640A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4AA6C2F1589A2DF0093D97E /* CoreGraphics.framework */; };
@@ -55,8 +55,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		843CECB11B225935002D0A4E /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseUI.framework; sourceTree = "<group>"; };
-		844F2F2C1B212EA500C0640A /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		8444AB371B2671D2007D02FE /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		8444AB391B2671DE007D02FE /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseUI.framework; sourceTree = "<group>"; };
 		844F2F2E1B212F2000C0640A /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		844F2F301B212F2D00C0640A /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		844F2F331B212F4C00C0640A /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
@@ -124,14 +124,14 @@
 				844F2F3C1B212F9C00C0640A /* Security.framework in Frameworks */,
 				844F2F3A1B212F8D00C0640A /* QuartzCore.framework in Frameworks */,
 				844F2F381B212F7A00C0640A /* MobileCoreServices.framework in Frameworks */,
-				843CECB21B225935002D0A4E /* ParseUI.framework in Frameworks */,
+				8444AB3A1B2671DE007D02FE /* ParseUI.framework in Frameworks */,
+				8444AB381B2671D2007D02FE /* Parse.framework in Frameworks */,
 				844F2F361B212F6B00C0640A /* libz.1.1.3.dylib in Frameworks */,
 				844F2F341B212F4C00C0640A /* CoreLocation.framework in Frameworks */,
 				844F2F321B212F3D00C0640A /* CoreGraphics.framework in Frameworks */,
 				844F2F311B212F2D00C0640A /* CFNetwork.framework in Frameworks */,
 				844F2F2F1B212F2000C0640A /* AudioToolbox.framework in Frameworks */,
 				844F2F4A1B21334700C0640A /* Bolts.framework in Frameworks */,
-				844F2F2D1B212EA500C0640A /* Parse.framework in Frameworks */,
 				F4AA6C2E1589A2DF0093D97E /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -185,7 +185,8 @@
 		F4AA6C2A1589A2DF0093D97E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				843CECB11B225935002D0A4E /* ParseUI.framework */,
+				8444AB391B2671DE007D02FE /* ParseUI.framework */,
+				8444AB371B2671D2007D02FE /* Parse.framework */,
 				844F2F491B21334700C0640A /* Bolts.framework */,
 				844F2F471B21320400C0640A /* Social.framework */,
 				844F2F451B2131CB00C0640A /* libsqlite3.dylib */,
@@ -200,7 +201,6 @@
 				844F2F331B212F4C00C0640A /* CoreLocation.framework */,
 				844F2F301B212F2D00C0640A /* CFNetwork.framework */,
 				844F2F2E1B212F2000C0640A /* AudioToolbox.framework */,
-				844F2F2C1B212EA500C0640A /* Parse.framework */,
 				F4AA6C2B1589A2DF0093D97E /* UIKit.framework */,
 				F4AA6C2D1589A2DF0093D97E /* Foundation.framework */,
 				F4AA6C2F1589A2DF0093D97E /* CoreGraphics.framework */,

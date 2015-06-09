@@ -96,9 +96,17 @@
     if ([segue.identifier isEqualToString:@"showRecipeDetail"]) {
         NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
         RecipeDetailViewController *destViewController = segue.destinationViewController;
-        destViewController.recipe = [recipes objectAtIndex:indexPath.row];
+        PFObject *object = [self.objects objectAtIndex:indexPath.row];
+        Recipe *recipe = [[Recipe alloc] init];
+        recipe.name = [object objectForKey:@"name"];
+        recipe.imageFile = [object objectForKey:@"imageFile"];
+        recipe.prepTime = [object objectForKey:@"prepTime"];
+        recipe.ingredients = [object objectForKey:@"ingredients"];
+        destViewController.recipe = recipe;
+        
     }
 }
+
 
 
 @end
